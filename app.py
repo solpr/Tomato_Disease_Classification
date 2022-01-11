@@ -45,5 +45,5 @@ else:
     st.image(image, use_column_width=True)
 
     class_name, confidence = predict(model, image)
-    output = f"this image most likely belongs to {class_name} with a {confidence}% confidence"
+    output = f"This image shows that the disease is most likely {class_name} with a {confidence}% confidence"
     st.write(output)
