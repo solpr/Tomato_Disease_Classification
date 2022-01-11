@@ -1,6 +1,4 @@
 tensorflow==2.7.0
 streamlit==0.68.1
-Image
-ImageOps
 numpy==1.18.1
 
