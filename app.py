@@ -24,7 +24,7 @@ with st.spinner('Model is being loaded..'):
     model = load_model()
 
 st.write("# Tomato Disease Classification ... prepared by Solomon Araya")
-file = st.file_uploader("Please upload an image file", type=["jpg", "png"])
+file = st.file_uploader("Please upload an image file", type=["jpg", "png", "jpeg"])
 st.set_option('deprecation.showfileUploaderEncoding', False)
 
 def predict(model, img):
